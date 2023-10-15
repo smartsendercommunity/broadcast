@@ -61,6 +61,8 @@
 ```
 
 
+Шаблон з прикладами "Зовнішніх запитів" https://messenger.smartsender.com/t/NMLwVvwfmVyyKpoMpJVWVT84ZpdKsbFTde1crldi
+
 
 
 
