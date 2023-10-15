@@ -64,9 +64,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $result["state"] = false;
     $result["error"]["message"][] = "'segment' is missing";
   }
-  if ($input["trigger"] == NULL) {
+  if ($input["ssId"] == NULL) {
     $result["state"] = false;
-    $result["error"]["message"][] = "'trigger' is missing";
+    $result["error"]["message"][] = "'ssId' is missing";
   }
   if ($result["state"] == false) {
     echo json_encode($result);
@@ -85,9 +85,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $result["state"] = false;
     $result["error"]["message"][] = "'segment' is missing";
   }
-  if ($input["trigger"] == NULL) {
+  if ($input["ssId"] == NULL) {
     $result["state"] = false;
-    $result["error"]["message"][] = "'trigger' is missing";
+    $result["error"]["message"][] = "'ssId' is missing";
   }
   if ($result["state"] == false) {
     echo json_encode($result);
