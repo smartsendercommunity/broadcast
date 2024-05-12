@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     exit;
   }
   if ($input["limit"] == NULL) {
-    $input["limit"] = 0;
+    $input["limit"] = 100;
   } else {
     settype($input["limit"], "int");
   }
